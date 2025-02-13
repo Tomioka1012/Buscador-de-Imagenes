@@ -347,7 +347,7 @@ body{
 .container-modal .modal-custom{
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: max-content;
   max-height: 95%;
   background-color: white;
   border-radius: 10px;
@@ -547,7 +547,7 @@ body{
 
   .container-modal .modal-custom .modal-header{
       padding-bottom: 6px;
-      margin-top: 10px;
+      margin-top: 15px;
      
   }
   .container-modal .modal-custom .modal-header .actions button{
@@ -556,7 +556,7 @@ body{
   }
 
    .container-modal .modal-custom{
-      max-height: 70%;
+      max-height: max-content;
       width: 95%;
       
   }
